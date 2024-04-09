@@ -1,0 +1,70 @@
+.login{
+    background-color: white;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+
+    align-items: center;
+}
+
+
+.loginpage_logo{
+margin-top:10px;
+margin-bottom:20px;
+object-fit: contain;
+width: 120px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.login_container{
+    display:flex;
+    width:300px;
+    height: fit-content;
+    flex-direction:column;
+    border-radius: 5px;
+    border:1px solid lightgrey;
+    padding:20px;
+}
+.login_container>h1{
+    font-weight: 500;
+    margin-bottom: 20;
+}
+.login_container>form>h5{
+margin-bottom: 5px;
+}
+.login_container>form>input{
+height:30px;
+margin-bottom:10px;
+background-color: white;
+width:98%;
+}
+.login_container>p{
+margin-top:15px;
+font-size:12px;
+
+}
+.signIn_btn{
+
+        background: #f0c14b ;
+        border: 1px solid;
+        margin-top:10px;
+        border-color: #a88734 #9c7e31 #846a29;
+        color:#111;
+        width:100%;
+        height:30px;
+        border-radius:2px;
+    }
+
+.createAccount_btn{
+    
+       
+        border: 1px solid;
+        margin-top:10px;
+        background-color: darkgrey;
+        color:#111;
+        width: 100%;
+        height:30px;
+        border-radius:2px;
+    
+}
